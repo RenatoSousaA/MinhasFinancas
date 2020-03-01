@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Bancos" representedClassName="Bancos" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Transformable"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="conta" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Contas" inverseName="banco" inverseEntity="Contas"/>
+    </entity>
+    <entity name="Contas" representedClassName="Contas" syncable="YES" codeGenerationType="class">
+        <attribute name="agencia" optional="YES" attributeType="String"/>
+        <attribute name="conta" optional="YES" attributeType="String"/>
+        <attribute name="cpf" optional="YES" attributeType="String"/>
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="tipo" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <relationship name="banco" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bancos" inverseName="conta" inverseEntity="Bancos"/>
+    </entity>
+    <elements>
+        <element name="Bancos" positionX="-18" positionY="27" width="128" height="88"/>
+        <element name="Contas" positionX="-45" positionY="0" width="128" height="133"/>
+    </elements>
 </model>

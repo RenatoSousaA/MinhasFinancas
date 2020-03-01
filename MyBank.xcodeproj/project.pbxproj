@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		CE9078D4240AB2F6004A50A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078D3240AB2F6004A50A3 /* AppDelegate.swift */; };
 		CE9078D6240AB2F6004A50A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078D5240AB2F6004A50A3 /* SceneDelegate.swift */; };
-		CE9078D8240AB2F6004A50A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078D7240AB2F6004A50A3 /* ViewController.swift */; };
 		CE9078DB240AB2F6004A50A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9078D9240AB2F6004A50A3 /* Main.storyboard */; };
 		CE9078DE240AB2F6004A50A3 /* MyBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9078DC240AB2F6004A50A3 /* MyBank.xcdatamodeld */; };
 		CE9078E0240AB2FD004A50A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9078DF240AB2FD004A50A3 /* Assets.xcassets */; };
 		CE9078E3240AB2FD004A50A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9078E1240AB2FD004A50A3 /* LaunchScreen.storyboard */; };
+		CE9078F0240AB9FD004A50A3 /* ContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078EF240AB9FD004A50A3 /* ContaViewController.swift */; };
+		CE9078F2240ABA71004A50A3 /* BanksManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078F1240ABA71004A50A3 /* BanksManager.swift */; };
+		CE9078F4240ABB9C004A50A3 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078F3240ABB9C004A50A3 /* ViewController+CoreData.swift */; };
+		CE9078F6240ABC23004A50A3 /* ContasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078F5240ABC23004A50A3 /* ContasTableViewController.swift */; };
+		CE9078F8240ABC94004A50A3 /* ContasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078F7240ABC94004A50A3 /* ContasTableViewCell.swift */; };
+		CE9078FA240AE662004A50A3 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078F9240AE662004A50A3 /* BankViewController.swift */; };
+		CE9078FE240AEC39004A50A3 /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9078FD240AEC39004A50A3 /* BankTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE9078D0240AB2F6004A50A3 /* MyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9078D3240AB2F6004A50A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9078D5240AB2F6004A50A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9078D7240AB2F6004A50A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE9078DA240AB2F6004A50A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9078DD240AB2F6004A50A3 /* MyBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyBank.xcdatamodel; sourceTree = "<group>"; };
 		CE9078DF240AB2FD004A50A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9078E2240AB2FD004A50A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9078E4240AB2FD004A50A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9078EF240AB9FD004A50A3 /* ContaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContaViewController.swift; sourceTree = "<group>"; };
+		CE9078F1240ABA71004A50A3 /* BanksManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksManager.swift; sourceTree = "<group>"; };
+		CE9078F3240ABB9C004A50A3 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		CE9078F5240ABC23004A50A3 /* ContasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContasTableViewController.swift; sourceTree = "<group>"; };
+		CE9078F7240ABC94004A50A3 /* ContasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContasTableViewCell.swift; sourceTree = "<group>"; };
+		CE9078F9240AE662004A50A3 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		CE9078FD240AEC39004A50A3 /* BankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +72,44 @@
 			children = (
 				CE9078D3240AB2F6004A50A3 /* AppDelegate.swift */,
 				CE9078D5240AB2F6004A50A3 /* SceneDelegate.swift */,
-				CE9078D7240AB2F6004A50A3 /* ViewController.swift */,
-				CE9078D9240AB2F6004A50A3 /* Main.storyboard */,
-				CE9078DF240AB2FD004A50A3 /* Assets.xcassets */,
-				CE9078E1240AB2FD004A50A3 /* LaunchScreen.storyboard */,
+				CE9078EC240AB362004A50A3 /* Controllers */,
+				CE9078ED240AB7F5004A50A3 /* Views */,
+				CE9078EE240AB802004A50A3 /* Assets */,
 				CE9078E4240AB2FD004A50A3 /* Info.plist */,
 				CE9078DC240AB2F6004A50A3 /* MyBank.xcdatamodeld */,
 			);
 			path = MyBank;
+			sourceTree = "<group>";
+		};
+		CE9078EC240AB362004A50A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE9078EF240AB9FD004A50A3 /* ContaViewController.swift */,
+				CE9078F1240ABA71004A50A3 /* BanksManager.swift */,
+				CE9078F3240ABB9C004A50A3 /* ViewController+CoreData.swift */,
+				CE9078F5240ABC23004A50A3 /* ContasTableViewController.swift */,
+				CE9078F7240ABC94004A50A3 /* ContasTableViewCell.swift */,
+				CE9078F9240AE662004A50A3 /* BankViewController.swift */,
+				CE9078FD240AEC39004A50A3 /* BankTableViewCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE9078ED240AB7F5004A50A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE9078E1240AB2FD004A50A3 /* LaunchScreen.storyboard */,
+				CE9078D9240AB2F6004A50A3 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE9078EE240AB802004A50A3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CE9078DF240AB2FD004A50A3 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9078D8240AB2F6004A50A3 /* ViewController.swift in Sources */,
+				CE9078F0240AB9FD004A50A3 /* ContaViewController.swift in Sources */,
+				CE9078F2240ABA71004A50A3 /* BanksManager.swift in Sources */,
 				CE9078DE240AB2F6004A50A3 /* MyBank.xcdatamodeld in Sources */,
+				CE9078FE240AEC39004A50A3 /* BankTableViewCell.swift in Sources */,
+				CE9078F4240ABB9C004A50A3 /* ViewController+CoreData.swift in Sources */,
 				CE9078D4240AB2F6004A50A3 /* AppDelegate.swift in Sources */,
+				CE9078FA240AE662004A50A3 /* BankViewController.swift in Sources */,
 				CE9078D6240AB2F6004A50A3 /* SceneDelegate.swift in Sources */,
+				CE9078F6240ABC23004A50A3 /* ContasTableViewController.swift in Sources */,
+				CE9078F8240ABC94004A50A3 /* ContasTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
